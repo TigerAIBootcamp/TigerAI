@@ -1,17 +1,17 @@
 # Site settings
-course_name: History of Magic
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
-course_semester: "Fall 1998"
+course_name: TigerAI - LSU/IBM AI security summer boot camp
+course_description: "Designed for students and aspiring professionals, this five-day program offers a comprehensive curriculum covering Machine Learning fundamentals, Federated Learning, Large Language Models, and AI Data Security. Participants will benefit from expert-led lectures, engaging demos, and hands-on labs, complemented by opportunities to network with industry leaders and peers. Upon completion, attendees will receive a certificate recognized by LSU and IBM, marking their achievements in this cutting-edge field. Join us for this transformative learning experience and be part of shaping the future of technology."
+course_semester: "Summer 2024"
 
-baseurl: "/TigerAI-Website" # the subpath of your site, e.g. /blog/
+baseurl: "/TigerAIWebsite/" # the subpath of your site, e.g. /blog/
 url: "http://hudzum.github.io/" # the base hostname & protocol for your site
 
-schoolname: "Hogwarts"
-schoolurl: "https://hogwarts.edu"
+schoolname: "LSU"
+schoolurl: "https://www.lsu.edu"
 twitter_username: username 
 
 address: |
-    School of Witchcraft and Wizardry
+    Louisiana State University
     Hogwarts
     Scotland
 
