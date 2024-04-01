@@ -5,4 +5,6 @@ Register to our [Google groups page](https://groups.google.com/forum/#!forum/gp-
 
 ---
 layout: schedule
+title: Schedule
+permalink: /schedule/
 ---
