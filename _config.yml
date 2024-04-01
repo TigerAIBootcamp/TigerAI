@@ -8,12 +8,11 @@ url: "http://hudzum.github.io/" # the base hostname & protocol for your site
 
 schoolname: "LSU"
 schoolurl: "https://www.lsu.edu"
-twitter_username: username 
+twitter_username: tigeraibootcamp@gmail.com
 
 address: |
     Louisiana State University
-    Hogwarts
-    Scotland
+    Baton Rouge Louisiana
 
 # Set your Google Analytics tracking ID (set up yours at http://www.google.com/analytics/)
 # google_analytics: UA-XXXXXXXX-X
