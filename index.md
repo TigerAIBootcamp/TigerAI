@@ -5,6 +5,6 @@ layout: home
 
 Please apply before the deadline of **April 19th 5:00pm**.
 
-Thanks to the support from NSF and IBM, this event is free of charge 🆓. 
+🙏🏻 Thanks to the support from NSF and IBM, this event is free of charge 🆓. 
 
-You will also receive certificates (if successfully passing the 5-day hands-on lab), swags, and lunch+coffee ☕️ will be provided. 
+You will also receive certificates 🎓 (if successfully received 5 badges ⭐️ from the 5-day hands-on labs), swags, and lunch 🍗 + coffee ☕️ will be provided. 
