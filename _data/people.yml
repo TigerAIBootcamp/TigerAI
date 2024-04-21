@@ -1,4 +1,15 @@
 organizers:
+
+  - name: Charles Masters
+    profile_pic: /_images/pp/charlesMaster.jpeg
+
+  - name: Kim Nguyen-Theunissen
+    profile_pic: /_images/pp/kimNguyen.jpg
+
+  - name: Adrienne Steele
+    profile_pic: /_images/pp/AdrienneS.jpeg
+
+
   - name: Hao Wang
     profile_pic: /_images/pp/haowang.jpeg
     webpage: https://intellisys.haow.ca/haowang/
