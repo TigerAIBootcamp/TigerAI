@@ -3,93 +3,118 @@ layout: default
 ---
 
 <div class="home">
+  <h1>
+    {{ site.course_name }}
+    <span style="font-size: 20px; color: #0006"
+      >/ {{ site.course_semester }}
+    </span>
+  </h1>
 
-    <h1>{{ site.course_name }} <span style="font-size: 20px;color: #0006;">/ {{ site.course_semester }} </span></h1>
+  {% include announcements.html %}
+  <br />
 
-    {% include announcements.html %}
-    <br />
+  <h2>Course Description</h2>
+  <p>{{ site.course_description }}</p>
 
-    <h2>Course Description</h2>
-    <p>{{ site.course_description }}</p>
-    
-    {{ content }}
+  {{ content }}
 
+  <h2><br />Schedule</h2>
 
-    <h2><br />Schedule</h2>
-   
-    
-    
-    <div class="home" style="font-size: 0.95em;">
-        <ul class="responsive-table" style="margin-left: 0;">
-            <li class="table-header">
-                <div class="col col-1">Event</div>
-                <div class="col col-1-2">Date</div>
-                <div class="col col-2">Description</div>
-                <div class="col col-4">Course Material</div>
-            </li>
-            
-            {% assign all_assignment_dues = site.assignments | map: "due_event" %}
-    
-            {% assign all_events = site.events | concat: site.lectures %}
-            {% assign all_events = all_events | concat: site.assignments %}
-            {% assign all_events = all_events | concat: all_assignment_dues %}
-            {% assign all_events_sorted = all_events | sort: 'date' %}
-    
-            {% for event in all_events_sorted %}
-            <li class="table-row table-row-{{ event.type}}">
-                {% include schedule_row_{{ event.type }}.html event=event %}
-            </li>
-            {% endfor %}
-    
-        </ul>
-    </div>
-    {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
-    <h2>Previous Offerings</h2>
-    <ul class="previous-offerings">
+  <div class="home" style="font-size: 0.95em">
+    <ul class="responsive-table" style="margin-left: 0">
+      <li class="table-header">
+        <div class="col col-1">Event</div>
+        <div class="col col-1-2">Date</div>
+        <div class="col col-2">Description</div>
+        <div class="col col-4">Course Material</div>
+      </li>
+
+      {% assign all_assignment_dues = site.assignments | map: "due_event" %} {%
+      assign all_events = site.events | concat: site.lectures %} {% assign
+      all_events = all_events | concat: site.assignments %} {% assign all_events
+      = all_events | concat: all_assignment_dues %} {% assign all_events_sorted
+      = all_events | sort: 'date' %} {% for event in all_events_sorted %}
+      <li class="table-row table-row-{{ event.type}}">
+        {% include schedule_row_{{ event.type }}.html event=event %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% if site.data.previous_offering and site.data.previous_offering.offerings
+  and site.data.previous_offering.offerings.size > 0 %}
+  <h2>Previous Offerings</h2>
+  <ul class="previous-offerings">
     {% for offer in site.data.previous_offering.offerings %}
     <li><a href="{{ offer.url }}">{{offer.title}}</a></li>
     {% endfor %}
-    </ul>
-    {% endif %}
+  </ul>
+  {% endif %}
 
-    <br>
-    <div>
-        <div style="width:100%; float: left">
-            <!-- <h2>Instructors</h2> -->
-            <!-- <div class="image--cover-container">
+  <br />
+  <div>
+    <div style="width: 100%; float: left">
+      <!-- <h2>Instructors</h2> -->
+      <!-- <div class="image--cover-container">
                 <img src="{{site.data.people.instructor.profile_pic | prepend: site.baseurl }}" class="image--cover">
                 <p>{{site.data.people.instructor.name}}</p>
             </div> -->
 
-            <div class="profile-pic-gallary ">
-                <h2>Organizers</h2>
-                {% for ins in site.data.people.organizers %}
-                <div class="image--cover-container">
-                    <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ins.webpage %}
-                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
-                    {% else %}
-                    <p>{{ins.name}}</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
+      <div class="profile-pic-gallary">
+        <h2>Organizers</h2>
+        {% for ins in site.data.people.organizers %}
+        <div class="image--cover-container">
+          <img
+            src="{{ins.profile_pic | prepend: site.baseurl }}"
+            class="image--cover"
+          />
+          {% if ins.webpage %}
+          <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+          {% else %}
+          <p>{{ins.name}}</p>
+          {% endif %}
         </div>
-
-        <div style="width:100%; float: left">
-            <div class="profile-pic-gallary ">
-                <h2>Volunteers</h2>
-                {% for ta in site.data.people.teaching_assistants %}
-                <div class="image--cover-container">
-                    <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ta.webpage %}
-                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
-                    {% else %}
-                    <p>{{ta.name}}</p>
-                    {% endif %}
-                </div>
-                {% endfor %}
-            </div>
-        </div>
+        {% endfor %}
+      </div>
     </div>
+
+
+    <div style="width: 100%; float: left">
+      <div class="profile-pic-gallary">
+        <h2>Volunteers</h2>
+        {% for ta in site.data.people.teaching_assistants %}
+        <div class="image--cover-container">
+          <img
+            src="{{ta.profile_pic | prepend: site.baseurl }}"
+            class="image--cover"
+          />
+          {% if ta.webpage %}
+          <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+          {% else %}
+          <p>{{ta.name}}</p>
+          {% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+
+  <div style="width: 100%; float: left">
+    <div class="profile-pic-gallary">
+      <h2>Advisory Committee</h2>
+      {% for ac in site.data.people.advisory_committiee %}
+      <div class="image--cover-container">
+        <img
+          src="{{ac.profile_pic | prepend: site.baseurl }}"
+          class="image--cover"
+        />
+        {% if ac.webpage %}
+        <p><a href="{{ ac.webpage }}">{{ac.name}}</a></p>
+        {% else %}
+        <p>{{ac.name}}</p>
+        {% endif %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
 </div>

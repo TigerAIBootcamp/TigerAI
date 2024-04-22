@@ -1,18 +1,21 @@
 organizers:
 
-  - name: Charles Masters
-    profile_pic: /_images/pp/charlesMaster.jpeg
-
-  - name: Kim Nguyen-Theunissen
-    profile_pic: /_images/pp/kimNguyen.jpg
-
-  - name: Adrienne Steele
-    profile_pic: /_images/pp/AdrienneS.jpeg
-
-
   - name: Hao Wang
     profile_pic: /_images/pp/haowang.jpeg
     webpage: https://intellisys.haow.ca/haowang/
+
+  - name: Sahithi Rampally
+    profile_pic: /_images/pp/sahithi.jpeg
+    
+  - name: Damien Nguyen
+    profile_pic: /_images/pp/damien.jpeg
+    
+
+  - name: Hudson Vu
+    profile_pic: /_images/pp/hudson.jpeg
+
+  - name: Jackson Descant
+    profile_pic: /_images/pp/jack.jpeg
 
 
 teaching_assistants:
@@ -30,3 +33,17 @@ teaching_assistants:
   - name: Jackson Descant
     profile_pic: /_images/pp/jack.jpeg
     
+advisory_committiee:
+
+  - name: Charles Masters
+    profile_pic: /_images/pp/charlesMaster.jpeg
+
+  - name: Kim Nguyen-Theunissen
+    profile_pic: /_images/pp/kimNguyen.jpg
+
+  - name: Adrienne Steele
+    profile_pic: /_images/pp/AdrienneS.jpeg
+
+
+  - name: Hao Wang
+    profile_pic: /_images/pp/haowang.jpeg
