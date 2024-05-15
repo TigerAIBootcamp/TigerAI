@@ -35,19 +35,23 @@ teaching_assistants:
     
 advisory_committiee:
 
-  - name: Charles Masters
+  - name: Charles Masters (IBM)
     profile_pic: /_images/pp/charlesMaster.jpeg
     webpage: https://www.linkedin.com/in/charles-masters-3655b117a/
 
-  - name: Kim Nguyen-Theunissen
+  - name: Kim Nguyen-Theunissen (IBM)
     profile_pic: /_images/pp/kimNguyen.jpg
     webpage: https://www.linkedin.com/in/nguyentheunissen/
 
-  - name: Jamie Scott Richardson
+  - name: Jamie Scott Richardson (IBM)
     profile_pic: /_images/logo.png
 
-  - name: Adrienne Steele
+  - name: Dr. Shiqiang Wang (IBM)
+    profile_pic: https://shiqiang.wang/authors/admin/avatar_hua4aad4cea71926d9b2a85b8f62245426_364232_270x270_fill_q75_lanczos_center.jpg
+    webpage: https://shiqiang.wang
+
+  - name: Adrienne Steele (LSU)
     profile_pic: /_images/pp/AdrienneS.jpeg
 
-  - name: Hao Wang
+  - name: Dr. Hao Wang (LSU)
     profile_pic: /_images/pp/haowang.jpeg
