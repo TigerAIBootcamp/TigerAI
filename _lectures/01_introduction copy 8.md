@@ -1,7 +1,7 @@
 ---
 type: lecture
 date: 2024-05-23T8:00:00+4:30
-title: AI, Energy, Human AI Interaction
+title: AI, Energy, Human AI Interaction <br />1245 PFT
 
 ---
 
