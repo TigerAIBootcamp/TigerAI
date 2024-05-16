@@ -404,6 +404,7 @@ a.tosu {
 }
 
 .image--cover-container {
+    
     width: 80px;
     float: left;
     text-align: center;
@@ -507,3 +508,42 @@ a.tosu {
         border-bottom: 0 !important;
     }
 }
+
+.speaker-container {
+    padding: 0px;
+    display: inline;
+   
+}
+
+.speaker-image-container {
+    width: 400px;
+    float: left;
+    margin-top: 10px;
+    margin-right: 40px;
+    display:flex;
+    
+}
+
+.speaker-image--cover {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.sponsor-container {
+    display: flex; /* Uses flexbox for layout */
+    align-items: center; /* Aligns images vertically in the middle */
+    justify-content: space-around; /* Evenly spaces images within the container */
+  }
+  
+  .sponsor-image {
+    width: 150px; /* Sets a consistent width for all sponsor images */
+    height: auto; /* Maintains the aspect ratio of the images */
+  }
+

@@ -78,6 +78,32 @@ layout: default
     </div>
 
 
+  <div class="speaker-container">
+    <h2>Speakers</h2>
+    {% for ins in site.data.people.speakers %}
+    <div class="speaker-image-container">
+      <img src="{{ ins.profile_pic | prepend: site.baseurl }}" 
+      class="speaker-image--cover"/>
+      <div>
+        <p>
+          {% if ins.webpage %}
+            <a href="{{ ins.webpage }} ">{{ ins.name }} </a>
+          {% else %}
+            <h3 >{{ ins.name }}: </h3>
+          {% endif %}
+          </br>
+        
+        {% if ins.bio %}
+            {{ ins.bio }}
+        {% endif %}
+      </p>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+
+
     <div style="width: 100%; float: left">
       <div class="profile-pic-gallary">
         <h2>Volunteers</h2>
@@ -116,5 +142,22 @@ layout: default
       </div>
       {% endfor %}
     </div>
+  </div>
+</div>
+
+
+<div style="width: 100%; float: left">
+  <h2>Sponsors</h2>
+  <div class="sponsor-container">
+    <img class="sponsor-image"
+          
+          src="/TigerAI/_images/nsf.svg"
+        />
+        <img
+        class="sponsor-image"
+        src="/TigerAI/_images/ibm.svg"
+      />
+    
+  
   </div>
 </div>

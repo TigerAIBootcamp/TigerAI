@@ -17,6 +17,52 @@ organizers:
   - name: Jackson Descant
     profile_pic: /_images/pp/jack.jpeg
 
+speakers:
+  - name: Dr. Hao Wang
+    bio: Assistant Professor at CSE Department, Louisiana State University
+    webpage: https://intellisys.haow.ca/haowang/
+    profile_pic: /_images/pp/haowang.jpeg
+
+  - name: Charles Masters
+    profile_pic: /_images/pp/charlesMaster.jpeg
+    webpage: https://www.linkedin.com/in/charles-masters-3655b117a/
+    bio: Senior Partner - Client Service Leader at IBM
+
+  - name: Dr. Mingxuan Sun
+    bio: Associate Professor at CSE Department, Louisiana State University
+    webpage: http://csc.lsu.edu/~msun/
+    profile_pic: /_images/pp/sun.jpeg
+
+  - name: Dr. Matt Sinclair 
+    bio:  Assistant Professor in the Computer Sciences Department, University of Wisconsin-Madison
+    webpage: https://pages.cs.wisc.edu/~sinclair/
+    profile_pic: /_images/pp/sinclair.jpeg
+
+  - name: Kim Nguyen-Theunissen
+    bio:  Innovation Tech Enthusiast & Client Success Champion at IBM
+    webpage: https://www.linkedin.com/in/nguyentheunissen/
+    profile_pic: /_images/pp/kimNguyen.jpg
+
+  - name: Dr. Umar Farooq
+    bio:  Assistant Professor at CSE Department, Louisiana State University
+    webpage: https://csc.lsu.edu/~ufarooq/
+    profile_pic: /_images/pp/farooq.jpeg
+
+  - name: Dr. Noman Bashir  
+    bio:  Computing & Climate Impact Fellow at MIT Climate & Sustainability Consortium (MCSC)
+    webpage: https://noman-bashir.github.io
+    profile_pic: /_images/pp/bashir.jpeg
+
+  - name: Dr. Mahmood Jasim
+    bio:  Assistant Professor at Louisiana State University
+    webpage: https://csc.lsu.edu/~mjasim/
+    profile_pic: /_images/pp/jasim.jpeg
+
+  - name: Dr. Xu Yuan
+    bio:  Associate Professor in Department of Computer and Information Sciences at the University of Delaware
+    webpage: https://yuanxuyx.github.io/index.html
+    profile_pic: /_images/pp/xu.jpeg
+      
 
 teaching_assistants:
   - name: Sahithi Rampally
