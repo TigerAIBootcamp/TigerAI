@@ -18,10 +18,6 @@ organizers:
     profile_pic: /_images/pp/jack.jpeg
 
 speakers:
-  - name: Dr. Hao Wang
-    bio: Assistant Professor at CSE Department, Louisiana State University
-    webpage: https://intellisys.haow.ca/haowang/
-    profile_pic: /_images/pp/haowang.jpeg
 
   - name: Charles Masters
     profile_pic: /_images/pp/charlesMaster.jpeg
@@ -62,7 +58,11 @@ speakers:
     bio:  Associate Professor in Department of Computer and Information Sciences at the University of Delaware
     webpage: https://yuanxuyx.github.io/index.html
     profile_pic: /_images/pp/xu.jpeg
-      
+
+  - name: Dr. Hao Wang
+    bio: Assistant Professor at CSE Department, Louisiana State University
+    webpage: https://intellisys.haow.ca/haowang/
+    profile_pic: /_images/pp/haowang.jpeg
 
 teaching_assistants:
   - name: Sahithi Rampally
