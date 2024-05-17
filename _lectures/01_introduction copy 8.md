@@ -6,5 +6,5 @@ title: AI, Energy, Human AI Interaction <br />1245 PFT
 ---
 
 **Speakers:**
-- [Dr. Noman Bashir (MIT, Remote)](https://noman-bashir.github.io)
 - [Dr. Mahmood Jasim (LSU)](https://csc.lsu.edu/~mjasim/)
+- [Dr. Noman Bashir (MIT, Remote)](https://noman-bashir.github.io)
