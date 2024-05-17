@@ -23,6 +23,11 @@ speakers:
     profile_pic: /_images/pp/charlesMaster.jpeg
     webpage: https://www.linkedin.com/in/charles-masters-3655b117a/
     bio: Senior Partner - Client Service Leader at IBM
+  
+  - name: Dr. Hao Wang
+    bio: Assistant Professor at CSE Department, Louisiana State University
+    webpage: https://intellisys.haow.ca/haowang/
+    profile_pic: /_images/pp/haowang.jpeg
 
   - name: Dr. Mingxuan Sun
     bio: Associate Professor at CSE Department, Louisiana State University
@@ -59,10 +64,6 @@ speakers:
     webpage: https://yuanxuyx.github.io/index.html
     profile_pic: /_images/pp/xu.jpeg
 
-  - name: Dr. Hao Wang
-    bio: Assistant Professor at CSE Department, Louisiana State University
-    webpage: https://intellisys.haow.ca/haowang/
-    profile_pic: /_images/pp/haowang.jpeg
 
 teaching_assistants:
   - name: Sahithi Rampally
