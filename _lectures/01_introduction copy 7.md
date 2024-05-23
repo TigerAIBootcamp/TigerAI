@@ -12,6 +12,6 @@ title: AI Ethics, Fairness, LLM Security <br />1245 PFT
 
 **Resources:**
 
-- [Presentation #2](security-coding-llm.pdf)
+- [Presentation #2](_lectures/security-coding-llm.pdf)
 
 - [Google IDX DEMO](https://gist.github.com/ufarooq/bce5e3f195e2988c997d55c8e1a41ca7)
