@@ -7,7 +7,7 @@ title: AI & Accelerators <br />1245 PFT
 - [Dr. Matt Sinclair (Wisconsin-Madison)](https://pages.cs.wisc.edu/~sinclair/)
 
 **Resources: (Some links may be blocked on eduroam)**
-- [Presentation](https://pages.cs.wisc.edu/~sinclair/presentations/msinclair-lsu-gemms.pdf)
+- [GEMMs Presentation](https://pages.cs.wisc.edu/~sinclair/presentations/msinclair-lsu-gemms.pdf)
 
 - [Activities (No cuBLAS)](https://pages.cs.wisc.edu/~sinclair/lsu/)
 

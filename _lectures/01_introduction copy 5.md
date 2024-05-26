@@ -10,5 +10,5 @@ title: Opening Ceremony & Introduction / Basics <br />1245 PFT
 - [Dr. Mingxuan Sun (LSU)](http://csc.lsu.edu/~msun/)
 
 **Resources:**
-- [Presentation](http://csc.lsu.edu/~msun/teaching/AI_regression_sun.pptx)
+- [Introduction to ML Presentation](http://csc.lsu.edu/~msun/teaching/AI_regression_sun.pptx)
 - [DEMO](https://colab.research.google.com/drive/1SlId2JEtmC53z3eVq6SYN4-htbzV2-1h?usp=sharing#scrollTo=bZUKVZhq1qv_)
